@@ -23,7 +23,7 @@ footer-links:
   flickr:
   github: spacerangerwes
   instagram: spacerangerwes
-  linkedin:
+  linkedin: wesleyhoffman1
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: spacerangerwes
@@ -58,16 +58,21 @@ highlighter: pygments
 permalink: /:title/
 
 # The release of Jekyll Now that you're using
-version: v1.1.0
+version: v3.0.3
 
 # Set the Sass partials directory, as we're using @imports
 sass:
   style: :expanded # You might prefer to minify using :compressed
 
-# Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+github: [metadata]
+ kramdown:
+   input: GFM
+   hard_wrap: false
+ gems:
+   - jekyll-coffeescript
+   - jekyll-paginate
+   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
 # Exclude these files from your production _site
 exclude:
