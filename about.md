@@ -4,11 +4,20 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Currently an undergrad at the University of Kansas in Computer Science, I am a software engineer that is obsessed with numbers. If you could stick me in a room with a bunch of numbers and a computer, I would feed on beautiful regression models. At the moment, I am apart of Theia, a senior design group building a next gen eye tracking computer interface for people with disabilities. I like to spend my time watch TV and film that I find artistic and reading books that don't pertain to computing.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I like books.
+
+I like Film.
+
+I like TV.
+
+I like Machine Learning.
+
+I like drinks on the weekend.
+
 
 ### Contact me
 
