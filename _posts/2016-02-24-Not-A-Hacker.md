@@ -9,6 +9,8 @@ As this being the first hackathon many of the ACM students have attended, the sm
 
 Immediately inside Siebel's doors (UIUC's Computer Science building), it was a fury of "hackers" trying to find free "swag" and permanent roosts in the hall where they will be living for the next few unbroken days. I then knew that I would not be sleeping. Once our group found a location to perch ourselves, the hacking began.
 
+![BlanketWes]({{ site.baseurl }}/images/sleepy-coding.JPG)
+
 I worked on (and am still working on) an algorithmic trading system. Due to working with a Ph.D. student and many of these ideas being his, I cannot go into much detail on what I've done. In short I am creating an algorithmic trading model built from technical identifiers used by stock traders. The idea is that enough of these may give us some interesting insight on how they associate with each other and if we can get a good intraday system by using "good" and "bad" intraday indictors.
 
 ![BollingerBand]({{ site.baseurl }}/images/bollingerband.png)
@@ -20,3 +22,5 @@ Back to the hackathon, this is what I was trying to finish in a 36 hour time fra
 There were many large companies there, and the amount of money and interest invested into the hackathon by them lead me to believe that they use these events as large recruiting pools. It scares me a little to think that companies look for computer science students who work well under lack of sleep and a stress crunch. Maybe I'm incorrect in assuming their company cultures encourage this. For personal health, that style of work is not sustainable and leads to poorly developed code.
 
 The hackathon was definitely worthwhile, but I would have loved sleep, a shower, and a large screen to watch Bob's Burgers on.
+
+![ACMHackIllinois]({{ site.baseurl }}/images/ACM-HackIllinois.jpg)
