@@ -2,6 +2,8 @@
 layout: post
 title: Not A Hacker
 ---
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 
 It was a sunny Friday morning. A boy calm, collected, always on time, was late to leave on a bus to Illinois. This is my story of HackIllinois.
 
@@ -15,7 +17,7 @@ I worked on (and am still working on) an algorithmic trading system. Due to work
 
 ![BollingerBand]({{ site.baseurl }}/images/bollingerband.png)
 
-This is a Bollinger Band. It is one of the primary indicators that I am developing as a stock feature. The Bollinger band tells us how volatile the market is. The wider the band, the more volatile the market has become. The widening of the band is because each band is a moving average's standard deviation. For example, an upper band is `(MA+k&#963;)` where `MA = Moving Average` and `k = number of N periods`. I am using a growing list of technical indicators like this that will each contribute as a feature to a final ML matrix.
+This is a Bollinger Band. It is one of the primary indicators that I am developing as a stock feature. The Bollinger band tells us how volatile the market is. The wider the band, the more volatile the market has become. The widening of the band is because each band is a moving average's standard deviation. For example, an upper band is $$(MA+k\sigma)$$ where `MA = Moving Average` and `k = number of N periods`. I am using a growing list of technical indicators like this that will each contribute as a feature to a final ML matrix.
 
 Back to the hackathon, this is what I was trying to finish in a 36 hour time frame. The fates were against me, father time was against me, and above all the sandman was against me. I went from Thursday morning to Monday at 2pm with 11 hours of sleep. My ability....to keep...a cooooo...hesvie thought drastically disintegrated. Does the ability and skill of being able to develop a system over a weekend make a good programmer?
 
