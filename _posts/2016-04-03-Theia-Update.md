@@ -8,22 +8,21 @@ So you need some preliminary information to understand the problem statement I u
 The ability for a computer to communicate with our Signal Acquisition Amplifier ([gMOBIlab](http://www.gtec.at/Products/Hardware-and-Accessories/g.MOBIlab-Specs-Features)) is of utmost importance. Without a cohesive communication system between these two systems, there would be no EOG data to process. Who woulda thunk it? Beginning in early October, I started working with the Speech and Applied Neuroscience (SAN) lab under the guidence of Dr. Jon Brumburg developing a robust API in Python and it's C integrated language Cython to communicate with the gMOBIlab. I developed the API to be as general as possible so that no matter the experiment, it would be easily scripted and configured.
 
 Starting in October, I began augmenting, rewriting, and testing Cython code that the SAN lab had developed for a Python integratable API. While the code was operational, it did not configure the amplifier correctly nor handle control flow and errors properly. Because of this, I began working with the [ConfigParser](https://docs.python.org/2/library/configparser.html) Python library that provides a basic configuration parsing language based off of Microsoft's INI file structure.
-```
-[channel1]
+<pre><code>[channel1]
 highpass = 0.5
 lowpass = 30.0
 sensitivity = 500.0
 samplerate = 256.0
-```
-This is a code sample that defines one of the EOG electrode channels. Each channel has built in variables in the gMOBIlab hardware that can be specified. Here I am defining the highpass and lowpass filters to their default values and setting the max sensitivite and samplerate.
+</code></pre>
+This is a code sample that defines one of the EOG electrode channels. Each channel has built in variables in the gMOBIlab hardware that can be specified. Here I am defining the highpass and lowpass filters to their default values and setting the max sensitive and samplerate.
 
-In Theia the API is configured in ```channels.cfg```, and the API is implemented in <code>mobilab.py</code> which is the module in which the acquisition occurs and the Kalman filter is applied.
+In Theia the API is configured in <code>channels.cfg</code>, and the API is implemented in <code>mobilab.py</code> which is the module in which the acquisition occurs and the Kalman filter is applied.
 
-##Ventures with a Raspberry Pi 3 and the NeuralTalk2 Repository
+## Ventures with a Raspberry Pi 3 and the NeuralTalk2 Repository ##
 
 Over the past two weeks, I have been putting the finishing touches on the gMOBIlab Python API (a job that never seems complete) and began researching a computer vision library that I had come across a few months ago as well as try to implement our code base on a Raspberry Pi 3.
 
-[NeuralTalk2](https://github.com/karpathy/neuraltalk2) is an image captioning Recurrent Neural Network written by two Standford graduate students [\@karpathy](https://github.com/karpathy) and [\@jcjohnson](https://github.com/jcjohnson). I have the library set up to run on a virtual machine for testing as well as my MacBook Pro, and the results are promising. Furthermore, we are working on getting a Amazon AWS GPU instance so that we can train a better model more specified to our needs.
+[NeuralTalk2](https://github.com/karpathy/neuraltalk2) is an image captioning Recurrent Neural Network written by two Standford graduate students [@karpathy](https://github.com/karpathy) and [@jcjohnson](https://github.com/jcjohnson). I have the library set up to run on a virtual machine for testing as well as my MacBook Pro, and the results are promising. Furthermore, we are working on getting a Amazon AWS GPU instance so that we can train a better model more specified to our needs.
 
 Here is a video demonstrating the abilities of this library on a leisurely walk through Amsterdam.
 
