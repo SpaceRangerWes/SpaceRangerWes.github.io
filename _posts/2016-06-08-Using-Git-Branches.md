@@ -14,10 +14,10 @@ Branches should be created each time you work on something new or "major." These
 
 ## Creating a Branch ##
 I am going to assume that you know how github works in some form or fashion and that you know the difference between remote and local.
-<pre><code>
-git checkout -b [branch_name]
-git push --set-upstream origin [branch_name]
-</code></pre>
+
+    git checkout -b [branch_name]
+    git push --set-upstream origin [branch_name]
+
 The above terminal snippet is saying to create a local branch of 'branch_name' and then simultaneously create a remote (upstream) branch of the same name and push to it. Think of it this way, when you create a local branch, github has no idea you have done so. Therefore, if you try to say <code>git push [branch_name]</code>, github doesn't know about this new fancy branch named [branch_name]. <code>git push --set-upstream origin [branch_name]</code> is creating a branch on github with the same name as your local and telling github that when you say git push from within that local branch to link it to the same-named remote branch on github's servers.
 
 ## Working in your Branch ##
@@ -25,30 +25,30 @@ This will be exactly the same as when you work from master or just work locally.
 
 ## Keeping Up with Master ##
 As said in the previous section, we need to stay updated with master if only for the sole purpose of not having monstrous merge conflicts (covered in the next section) at the end of our branch work. Massive merge conflicts are a whole project in-and-of themselves so we want to make the job easier on you so that you get paid for being smart and not for grunt work that slows the river of shit to a halt. So how do we keep up with the master branch? Easy.
-<pre><code>
-git fetch
-git merge origin/master
-</code></pre>
+
+    git fetch
+    git merge origin/master
+
 <code>git fetch</code> updates your remote branches, there usually is no need to have a local copy of a branch when your are not planning to work on this branch. It is very likely you will have merge conflicts, but it is better to fix these smaller ones now than a massive list of them later.
 
 ## Finishing and Deleting Branch ##
 When you are finished with the work you've done on your branch and you've tested it, your peers have tested it, and the team lead has given you the go to merge it to master, then you are almost finished with adding your sweet, savory new code into master where it will become apart of Caliber's legacy and help grow our legion of followers and worshipers. Anywho, so you've gotten all of the approval and rubber stamps...let's continue by doing a final
-<pre><code>
-git fetch
-git merge origin/master
-git push origin [branch_name]
-</code></pre>
+
+    git fetch
+    git merge origin/master
+    git push origin [branch_name]
+
 and resolve any differences. Now do the following..
-<pre><code>
-git checkout master
-git merge [branch_name]
-</code></pre>
+
+    git checkout master
+    git merge [branch_name]
+
 Now because you had been so diligent about staying up to date with master over the course of your branch work, there should be few to none conflicts. And of course fix them if there are. Once the merge conflicts are no like in conflict and in unity with the universe..
-<pre><code>
-git push origin master
-git branch -d [branch_name]
-git push origin :[branch_name]
-</code></pre>
+
+    git push origin master
+    git branch -d [branch_name]
+    git push origin :[branch_name]
+
 Let's go through this line by line.
 
 1. We are pushing master to the remote master on github so no coworkers can get there grubby little code changes in there before you push. Otherwise, guess what happens? Yep, more conflicts.
