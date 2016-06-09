@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Currently an undergrad at the University of Kansas in Computer Science, I am a software engineer that is obsessed with numbers. If you could stick me in a room with a bunch of numbers and a computer, I would feed on beautiful regression models. At the moment, I am a part of Theia, a senior design group building a next gen eye tracking computer interface for people with disabilities. I like to spend my time watch TV and film that I find artistic and reading books that don't pertain to computing.
+I got my Bachelor of Science in Computer Science at the University of Kansas. Currently, I am a software engineer in Kansas City working for Cerner and Caliber Contracting. I spend most of my free time reading fiction, engaging in some musical experience, or wandering around the Crossroads, Westside, or the West Bottoms on foot. Shoot me an email if you're interested in me or what I do.
 
 ### More Information
 
