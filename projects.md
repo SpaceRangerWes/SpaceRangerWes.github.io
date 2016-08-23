@@ -7,6 +7,8 @@ These are links to past, current, and future project webpages and repositories.
 
 ### Links
 
+[Creating an Apache Spark Kaggle Tutorial]({{ site.baseurl }}/titanic_tutorial_spark16.html)
+
 [Theia](https://joshuamarple.github.io/EOG_tracker) - Undergrad Senior Design Project
 
 [Algorithmic Stock Trader](https://spacerangerwes.github.io/algo_trading)
