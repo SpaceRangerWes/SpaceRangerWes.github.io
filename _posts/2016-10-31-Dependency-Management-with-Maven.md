@@ -5,7 +5,7 @@ title: Dependency Management With Maven
 
 Maven is a build automation tool that defines how a Java project should be built and the dependencies on which the project relies. If you would like to learn about Maven, I highly recommend their tutorial [What is Maven?](https://maven.apache.org/what-is-maven.html). With that said, this is not a post about the beginning tutorials of using Maven. I'm more interested in the organization of project dependencies in large enterprise Java projects.
 
-When I first started at Cerner, I wanted to learn about data science, distributed computing, Hadoop, Apache Spark, and ad-hoc, real-time big data analytics. Over the course of five months, I've somehow ended up taking care of dependency trees. It all started when we wanted to upgrade our version of the Cloudera Hadoop Distribution from 5.4.4 to 5.5.2. If you are anything like me, you're thinking "Oh, I'll have this out in an iteration easy. What could go wrong with a 0.1 version upgrade?!"
+When I first started at Cerner, I wanted to learn about data science, distributed computing, Hadoop, Apache Spark, and ad-hoc, real-time big data analytics. Over the course of five months, I've somehow ended up taking care of dependency trees. It all started when we wanted to upgrade our version of the Cloudera Hadoop Distribution from 5.4.4 to 5.5.2. If you are anything like me, you're thinking "_Oh, I'll have this out in an iteration easy. What could go wrong with a 0.1 version upgrade?!_"
 
 Many things, idiot.
 
@@ -16,6 +16,7 @@ So let's start with some quick definitions.
 ## Transitive Dependencies ##
 
 Starting in Maven 2.0, it was decided that,
+
 > ...to allow you to avoid the need of discovering and specifying the libraries that your own dependencies require...
 
 you can use transitive dependencies.
@@ -23,6 +24,7 @@ you can use transitive dependencies.
 A **transitive dependency** is a library which may be included or used in a Java package that is inherited from the project's parents, the parents' dependencies, and so on.
 
 Because of this, you may imagine a situation where you've included five different minor versions of Hadoop (or any other library) in the graph of included libraries.
+
 >_Which version will it use, and is it the same as what we have on the cluster?!_
 
 > Beats me
@@ -83,7 +85,7 @@ If you have messed with POMs and POM inheritance before, you may be asking "_If 
 
 Artifacts specified in the `<dependencies>` section are **ALWAYS** included as a dependency of the child project. Artifacts specified in the `<dependencyManagement>` section of a parent POM is only included in its children if they specify that dependency. Now what is the benefit in that? Well... you now aren't forced in inheriting code you don't want. Your packaged jars now contain less overhead when you don't use a dependency from a parent project. But using `<dependencyManagement>` has some caveats.
 
-#### Using `<dependencyManagement>` ####
+### Using `<dependencyManagement>` ###
 
 Lets use a real world example. This is an excerpt from an anonymous dependency management POM from our infrastructures team that our Org used to use.
 
