@@ -9,7 +9,7 @@ This is why I've been equally focused on DevOps as well as data engineering infr
 
 Below is a presentation on a tool that I was building of a Proof-of-Concept (POC) called intellidjent that would eliminate current development issues that we, Enterprise Analytics, and the larger community in Software Engineering and Development wrestle with weekly. Unfortunately, intellidjent was not adopted so that project was abandoned in a Stable state after meeting with department architects and the director. But out of that conversation, we identified ways of resolving development issues, and I am now actively working on updating our development processes to simplify and document the optimal way to move forward. If successful my team will be able to shift our focus from engineering collisions and barriers and move on to advancing the technology we are passionate about giving our clients, the entire health service industry.
 
-Feel free to clone, fork, or read more about the project at https://github.com/SpaceRangerWes/intellidjent
+Feel free to clone, fork, or read more about the project at <https://github.com/SpaceRangerWes/intellidjent>
 
 
 ![intellidjent_slides]({{ site.baseurl }}/images/intellidjent_presentation.png)
