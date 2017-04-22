@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/spacerangerwes
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://spacerangerwes.github.io
+  * I am spacerangerwes (https://keybase.io/spacerangerwes) on keybase.
+  * I have a public key ASBQP8piJMFXdEzX-HpOZzojEzqB3t8cwy73Ol3oUeS6uAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120503fca6224c157744cd7f87a4e673a23133a81dedf1cc32ef73a5de851e4bab80a",
+            "host": "keybase.io",
+            "kid": "0120503fca6224c157744cd7f87a4e673a23133a81dedf1cc32ef73a5de851e4bab80a",
+            "uid": "a51521c50a901af8b8572f4bcb2a2d19",
+            "username": "spacerangerwes"
+        },
+        "service": {
+            "hostname": "spacerangerwes.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.21"
+    },
+    "ctime": 1492823659,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1492823506,
+        "hash": "dad0328694c749a1f2e27591863f512cfba479f205e3fb9b13e5f398df12f65d5a7264df35dd578c7cc50f39a82aca8b6348a3e6ba6aa07a435d2f237627d296",
+        "seqno": 1032520
+    },
+    "prev": "998c1da78874ffcce0e7a2c3f52e52866d26fa58516d7375c4f44e224dd86b7c",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgUD/KYiTBV3RM1/h6Tmc6IxM6gd7fHMMu9zpd6FHkurgKp3BheWxvYWTFAwd7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNTAzZmNhNjIyNGMxNTc3NDRjZDdmODdhNGU2NzNhMjMxMzNhODFkZWRmMWNjMzJlZjczYTVkZTg1MWU0YmFiODBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNTAzZmNhNjIyNGMxNTc3NDRjZDdmODdhNGU2NzNhMjMxMzNhODFkZWRmMWNjMzJlZjczYTVkZTg1MWU0YmFiODBhIiwidWlkIjoiYTUxNTIxYzUwYTkwMWFmOGI4NTcyZjRiY2IyYTJkMTkiLCJ1c2VybmFtZSI6InNwYWNlcmFuZ2Vyd2VzIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJzcGFjZXJhbmdlcndlcy5naXRodWIuaW8iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4yMSJ9LCJjdGltZSI6MTQ5MjgyMzY1OSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDkyODIzNTA2LCJoYXNoIjoiZGFkMDMyODY5NGM3NDlhMWYyZTI3NTkxODYzZjUxMmNmYmE0NzlmMjA1ZTNmYjliMTNlNWYzOThkZjEyZjY1ZDVhNzI2NGRmMzVkZDU3OGM3Y2M1MGYzOWE4MmFjYThiNjM0OGEzZTZiYTZhYTA3YTQzNWQyZjIzNzYyN2QyOTYiLCJzZXFubyI6MTAzMjUyMH0sInByZXYiOiI5OThjMWRhNzg4NzRmZmNjZTBlN2EyYzNmNTJlNTI4NjZkMjZmYTU4NTE2ZDczNzVjNGY0NGUyMjRkZDg2YjdjIiwic2Vxbm8iOjcsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAJc0eixNyVWLC/GAAg81f/WKiNT//Zw35L/hsZ94VBPI1myfDxYIvCDUlmHCYGDt+DV9I+mvD30VKTogrHmJ+BqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILs2B67a/V+cW2okAm/Iut3CZdX1sKgrrmdcaV3gnDdBo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/spacerangerwes
+
+==================================================================
