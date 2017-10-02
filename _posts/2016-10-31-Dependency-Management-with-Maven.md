@@ -7,7 +7,7 @@ Maven is a build automation tool that defines how a Java project should be built
 
 When I first started at Cerner, I wanted to learn about data science, distributed computing, Hadoop, Apache Spark, and ad-hoc, real-time big data analytics. Over the course of five months, I've somehow ended up taking care of dependency trees. It all started when we wanted to upgrade our version of the Cloudera Hadoop Distribution from 5.4.4 to 5.5.2. If you are anything like me, you're thinking "_Oh, I'll have this out in an iteration easy. What could go wrong with a 0.1 version upgrade?!_"
 
-Many things, idiot.
+> Many things, my pained friend.
 
 Over the course of uplifting half of the Hadoop cluster to CDH5 from CDH4, my team (Enterprise Analytics) ran into quite a few road blocks. These appeared to be only configuration level deep. Even so, debugging and developing Apache Oozie workflow configs, changing maven dependency versions to play nice with the runtime environment, and trimming up dependency conflicts takes a lot of time... Weeks... Months...
 
