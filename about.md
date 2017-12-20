@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Bachelor of Science in Computer Science at the University of Kansas; working at Cerner Corp. in KCMO as a software engineer on the Enterprise Analytics team. I spend most of my free time reading fiction, engaging in some musical experience, watching films and TV, or wandering around the Crossroads, Westside, or the West Bottoms on foot. Shoot me an email if you're interested in me or what I do.
+Computer Science Graduate of University of Kansas; working at Blueprint Consulting Services as a Data Engineer/Consultant. Previously worked at Cerner Corp. in KCMO as a software engineer on the Enterprise Analytics team. I spend most of my free time reading fiction, engaging in some musical experience, watching films and TV, or wandering around the Crossroads, Westside, or the West Bottoms on foot. Shoot me an email if you're interested in me or what I do.
 
 ### More Information
 
